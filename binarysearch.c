@@ -36,5 +36,6 @@ void main(){
     quicksort(a,0,7);
     for(i=0;i<8;i++)
     printf("%3d",a[i]);
+    printf("Program Executed");
     return 0;
 }
