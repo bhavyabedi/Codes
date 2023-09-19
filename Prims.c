@@ -38,7 +38,7 @@ int main(){
                 }
                 cost[a][b]=cost[b][a]=999;
             }
-            printf("\n \t Minimum Cost= %d",mincost);
         }
+        printf("\n \t Minimum Cost= %d",mincost);
     }
 }
