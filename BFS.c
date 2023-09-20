@@ -7,7 +7,6 @@ int bfs(int a[5][5],int n,int st){
     int q[n];
     visited[st]=1;
     q[rear++]=st;
-    
     while(front<rear){
         u=q[front++];
         printf("Visited Node: %d\n",u);
